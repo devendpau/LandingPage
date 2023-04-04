@@ -1,0 +1,39 @@
+html{
+    min-height: 100%;
+}
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: #1F2937;
+    color: #1F2937;
+}
+
+.innermenu{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.main{
+    background-color: #464646;
+    color: #ffffff;
+}
+
+.footer{
+    background-color: #a11c1c;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
